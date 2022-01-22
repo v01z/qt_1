@@ -18,6 +18,8 @@ public:
 private slots:
     void on_exitButton_clicked();
 
+    void on_task3Button_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
