@@ -1,5 +1,6 @@
 ﻿#include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "./task1.h"
 #include "./task3.h"
 #include <QtMath> // for qSqrt()
 
@@ -36,6 +37,10 @@ void MainWindow::on_task1Button_clicked()
     //https://nicknixer.ru/programmirovanie/programma-dlya-resheniya-kvadratnyx-uravnenij-na-c/
     //a, b and c will get using inputboxes or creating new form.
     //or maybe using that table from metodi4ka (better variant, I suppose; no form need)
+
+    task1 window;
+    window.setModal(true);
+    window.exec();
 
     double a{}, b{}, c{}, D{}, x1{}, x2{};
 

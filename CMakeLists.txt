@@ -32,9 +32,8 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        task1.cpp
         task3.cpp
-        task3.h
-        task3window.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
