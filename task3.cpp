@@ -1,6 +1,5 @@
 #include "task3.h"
 #include "ui_task3window.h"
-//#include <QMessageBox>
 #include <QInputDialog>
 
 task3::task3(QWidget *parent) :
