@@ -18,6 +18,8 @@ public:
 private slots:
     void on_closeButton_clicked();
 
+    void on_calcButton_clicked();
+
 private:
     Ui::task1 *ui;
 };
