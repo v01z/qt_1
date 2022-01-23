@@ -18,6 +18,12 @@ public:
 private slots:
     void on_closeButton_clicked();
 
+    void on_addButton_clicked();
+
+    void on_replaceButton_clicked();
+
+    void on_htmlButton_clicked();
+
 private:
     Ui::task3 *ui;
 };
