@@ -1,1 +1,1 @@
-# qt_1
+# Homework 'qt_1'
