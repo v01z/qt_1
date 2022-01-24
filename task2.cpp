@@ -33,7 +33,15 @@ void task2::on_radioButtonIsDegree_clicked()
 
 void task2::on_calculateButton_clicked()
 {
-    float a {};
+   if (ui->textEditAngleVal->toPlainText().isEmpty() ||
+           ui->textEditSideB->toPlainText().isEmpty() ||
+            ui->textEditSideC->toPlainText().isEmpty()) {
+
+       QMessageBox::warning(this, "Be careful", "Do not left data empty.");
+       return;
+   }
+
+   float a {};
    float b { ui->textEditSideB->toPlainText().toFloat() };
    float c { ui->textEditSideC->toPlainText().toFloat() };
    float alpha { ui->textEditAngleVal->toPlainText().toFloat() };

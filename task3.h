@@ -2,6 +2,7 @@
 #define TASK3_H
 
 #include <QDialog>
+#include <QInputDialog>
 
 namespace Ui {
 class task3;

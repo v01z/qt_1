@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include <QtMath>
+#include <QMessageBox>
 
 namespace Ui {
 class task1;

@@ -35,6 +35,9 @@
        <height>41</height>
       </rect>
      </property>
+     <property name="toolTip">
+      <string>Go to task 1</string>
+     </property>
      <property name="text">
       <string>task 1</string>
      </property>
@@ -47,6 +50,9 @@
        <width>191</width>
        <height>41</height>
       </rect>
+     </property>
+     <property name="toolTip">
+      <string>Go to task 2</string>
      </property>
      <property name="text">
       <string>task 2</string>
@@ -61,6 +67,9 @@
        <height>41</height>
       </rect>
      </property>
+     <property name="toolTip">
+      <string>Go to task 3</string>
+     </property>
      <property name="text">
       <string>task 3</string>
      </property>
@@ -74,6 +83,9 @@
       <width>191</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>Exit application</string>
     </property>
     <property name="text">
      <string>exit</string>

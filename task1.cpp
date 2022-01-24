@@ -21,6 +21,15 @@ void task1::on_closeButton_clicked()
 
 void task1::on_calcButton_clicked()
 {
+    if (ui->plainTextEditA->toPlainText().isEmpty() ||
+         ui->plainTextEditB->toPlainText().isEmpty() ||
+            ui->plainTextEditC->toPlainText().isEmpty()) {
+
+
+        QMessageBox::warning(this, "Be careful", "Do not left data empty.");
+        return;
+    }
+
     double D{}, x1{}, x2{};
 
     double a { ui->plainTextEditA->toPlainText().toDouble() };
