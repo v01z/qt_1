@@ -33,12 +33,15 @@ void task2::on_radioButtonIsDegree_clicked()
 
 void task2::on_calculateButton_clicked()
 {
-   double a {};
-   double b { ui->textEditSideB->toPlainText().toDouble() };
-   double c { ui->textEditSideC->toPlainText().toDouble() };
-   double alpha { ui->textEditAngleVal->toPlainText().toDouble() };
+    float a {};
+   float b { ui->textEditSideB->toPlainText().toFloat() };
+   float c { ui->textEditSideC->toPlainText().toFloat() };
+   float alpha { ui->textEditAngleVal->toPlainText().toFloat() };
 
-   a = qSqrt(b * b + c * c + 2 * b * c * qCos(alpha));
+   if (ui->radioButtonIsDegree->isChecked())
+       alpha = qDegreesToRadians(alpha);
+
+   a = qSqrt(b * b + c * c - 2 * b * c * qCos(alpha));
 
    ui->labelResult->setText(QString::number(a));
 

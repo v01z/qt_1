@@ -35,7 +35,7 @@ void task3::on_replaceButton_clicked()
 void task3::on_htmlButton_clicked()
 {
     bool ok;
-    QString html_code = QInputDialog::getText(this,"Make a choice", "Do u want to add html code\nlike this?",
+    QString html_code = QInputDialog::getText(this,"Adding html code", "Do u want to add html code\nlike this?",
           QLineEdit::Normal, "<font color=\'red\'>Hello</font>", &ok);
 
     if (ok && !html_code.isEmpty())
