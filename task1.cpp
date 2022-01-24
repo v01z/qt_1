@@ -1,6 +1,5 @@
 #include "task1.h"
 #include "ui_task1window.h"
-#include <QtMath>
 
 task1::task1(QWidget *parent) :
     QDialog(parent),

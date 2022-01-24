@@ -33,6 +33,7 @@ set(PROJECT_SOURCES
         mainwindow.h
         mainwindow.ui
         task1.cpp
+        task2.cpp
         task3.cpp
 )
 

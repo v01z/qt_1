@@ -22,6 +22,8 @@ private slots:
 
     void on_task1Button_clicked();
 
+    void on_task2Button_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

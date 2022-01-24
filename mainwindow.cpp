@@ -1,6 +1,7 @@
 ﻿#include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "./task1.h"
+#include "./task2.h"
 #include "./task3.h"
 
 MainWindow::MainWindow(QWidget *parent)
@@ -38,6 +39,15 @@ void MainWindow::on_task1Button_clicked()
     window.exec();
 
 
+
+}
+
+
+void MainWindow::on_task2Button_clicked()
+{
+    task2 window;
+    window.setModal(true);
+    window.exec();
 
 }
 

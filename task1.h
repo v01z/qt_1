@@ -2,6 +2,7 @@
 #define TASK1_H
 
 #include <QDialog>
+#include <QtMath>
 
 namespace Ui {
 class task1;
